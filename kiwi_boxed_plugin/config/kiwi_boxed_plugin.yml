@@ -66,7 +66,7 @@ box:
           - root=/dev/vda3
           - rd.plymouth=0
           - selinux=0
-        source: obs://Virtualization:Appliances:SelfContained:ubuntu/images
+        source: http://linux.elektrobit.com/Virtualization:/Appliances:/SelfContained:/ubuntu/images
         packages_file: Ubuntu-Box.x86_64-1.22.04-System-BuildBox.report
         boxfiles:
           - Ubuntu-Box.x86_64-1.22.04-Kernel-BuildBox.tar.xz
@@ -79,7 +79,7 @@ box:
           - root=/dev/vda2
           - rd.plymouth=0
           - selinux=0
-        source: obs://Virtualization:Appliances:SelfContained:ubuntu/images
+        source: http://linux.elektrobit.com/Virtualization:/Appliances:/SelfContained:/ubuntu/images
         packages_file: Ubuntu-Box.aarch64-1.22.04-System-BuildBox.report
         boxfiles:
           - Ubuntu-Box.aarch64-1.22.04-Kernel-BuildBox.tar.xz
